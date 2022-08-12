@@ -1,0 +1,14 @@
+name: 'load-metadata'
+description: ''
+runs:
+  using: 'node16'
+  main: 'dist/index.js'
+inputs:
+  artifactName:
+    description: ''
+    default: metadata
+    required: false
+  metadataFilename:
+    description: ''
+    default: metadata.json
+    required: false
